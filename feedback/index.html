@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>读者意见征集｜狂野性感大猴哥</title>
+  <meta name="description" content="关于吕洞宾与钟离权的人物与剧情意见征集，每位读者最多提交两次。">
+  <style>
+    :root{--ink:#0d3928;--paper:#f4f0e5;--lime:#c9f238;--orange:#ff7047;--pink:#f79ab5;--muted:#5e6b61}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}button,textarea{font:inherit}
+    .cover{border-bottom:1px solid var(--ink);background:#f8f4e9}.cover>img{display:block;width:100%;height:auto}.bar{border-top:1px solid var(--ink);padding:24px 7vw;display:flex;align-items:center;justify-content:space-between;gap:30px}.author{display:flex;align-items:center;gap:16px}.author img{width:76px;height:76px;border:1px solid var(--ink);border-radius:50%;object-fit:cover;background:#fff}.author div{display:flex;flex-direction:column;gap:4px}.author span{color:var(--muted);font-size:12px;letter-spacing:.15em}.author strong{font:500 21px Georgia,"Songti SC",serif}.start{color:var(--ink);font-weight:800;text-decoration:none;border-bottom:2px solid;padding:8px 0}
+    .question{max-width:940px;margin:auto;padding:110px 30px 140px}.number{display:inline-block;padding:9px 13px;margin-bottom:32px;border:1px solid var(--ink);background:var(--lime);box-shadow:4px 4px 0 var(--ink);font-size:12px;font-weight:900;letter-spacing:.23em}.question h1{font:500 clamp(38px,5.6vw,72px)/1.28 Georgia,"Songti SC",serif;letter-spacing:-.035em;margin:0 0 28px}.note{border-left:6px solid var(--orange);background:#fff9ed;color:#4f5d52;line-height:1.8;padding:14px 18px;margin:0 0 46px}.limit{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px;border:1px solid var(--ink);padding:20px 22px;margin-bottom:52px;background:var(--lime);box-shadow:7px 7px 0 var(--ink)}.limit span{font-weight:800}.limit strong{font-size:14px}.dots{display:flex;gap:7px}.dots i{width:11px;height:11px;border:1px solid var(--ink);border-radius:50%;background:var(--paper)}.dots i.filled{background:var(--orange)}
+    form{display:flex;flex-direction:column}label{font-weight:800;margin-bottom:12px}textarea{width:100%;border:1px solid var(--ink);border-radius:0;background:#fffaf0;color:var(--ink);padding:24px;line-height:1.8;resize:vertical;outline:none}textarea:focus{box-shadow:0 0 0 4px rgba(201,242,56,.75)}.bottom{display:flex;align-items:center;justify-content:space-between;margin-top:18px}.bottom span{color:var(--muted);font-size:13px}button{border:1px solid var(--ink);background:var(--ink);color:#fff;padding:17px 34px;font-weight:800;box-shadow:6px 6px 0 var(--orange)}button:disabled{opacity:.45}.closed{display:none;border:1px solid var(--ink);background:#fffaf0;padding:38px;box-shadow:8px 8px 0 var(--lime)}.closed h2{margin-top:0}
+    footer{border-top:1px solid var(--ink);background:var(--ink);color:#fff;padding:34px 7vw;display:flex;justify-content:space-between;gap:20px}footer span{letter-spacing:.15em;font-weight:800}footer p{margin:0;color:#cbd7cf}
+    @media(max-width:700px){.bar{padding:22px;flex-direction:column;align-items:stretch}.author img{width:62px;height:62px}.start{display:flex;justify-content:space-between}.question{padding:80px 22px 100px}.question h1{font-size:38px}.limit{grid-template-columns:1fr auto}.limit strong{grid-column:1/-1}.bottom{align-items:flex-start;gap:20px}.bottom button{flex:1}footer{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <img src="cover.jpg" alt="让下一次更好，活动意见收集">
+    <div class="bar"><div class="author"><img src="avatar.jpg" alt="作者头像"><div><span>作者</span><strong>狂野性感大猴哥</strong></div></div><a class="start" href="#question">写下你的想法　↓</a></div>
+  </section>
+  <main class="question" id="question">
+    <div class="number">QUESTION 01</div>
+    <h1>你希望吕洞宾在什么情况下会踩到钟离权的尾巴和底线，让钟离权生气？</h1>
+    <p class="note">注：需要符合剧情发展和人物性格特点，不要美化角色。</p>
+    <div class="limit"><span>每位读者最多提交 2 次</span><div class="dots"><i id="dot1"></i><i id="dot2"></i></div><strong id="remaining">你还可以提交 2 次</strong></div>
+    <form id="feedbackForm" action="https://formsubmit.co/lig26905@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="新的小说读者意见">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://lig26905-a11y.github.io/feedback/thanks.html">
+      <input type="text" name="_honey" style="display:none">
+      <label for="answer">你希望是</label>
+      <textarea id="answer" name="读者意见" required minlength="10" maxlength="2000" rows="10" placeholder="请结合剧情发展与人物性格，写下具体情境、行为和冲突……"></textarea>
+      <div class="bottom"><span>10—2000 字</span><button id="submitButton" type="submit">提交回答</button></div>
+    </form>
+    <section class="closed" id="closed"><h2>你的两次回答都已提交</h2><p>感谢你为人物和剧情认真思考。</p></section>
+  </main>
+  <footer><span>READER LETTER</span><p>每一种真实的理解，都可能照见人物的另一面。</p></footer>
+  <script>
+    (function(){
+      var key="reader_feedback_submissions_v1";
+      var used=Math.min(2,parseInt(localStorage.getItem(key)||"0",10)||0);
+      function draw(){document.getElementById("remaining").textContent="你还可以提交 "+(2-used)+" 次";document.getElementById("dot1").className=used>=1?"filled":"";document.getElementById("dot2").className=used>=2?"filled":"";if(used>=2){document.getElementById("feedbackForm").style.display="none";document.getElementById("closed").style.display="block"}}
+      document.getElementById("feedbackForm").addEventListener("submit",function(e){if(used>=2){e.preventDefault();return}sessionStorage.setItem("reader_feedback_pending","1")});draw();
+    })();
+  </script>
+</body>
+</html>
